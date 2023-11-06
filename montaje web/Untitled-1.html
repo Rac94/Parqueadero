@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Parqueadero</title>
+</head>
+<body>
+    <h1>Parqueadero</h1>
+    <form id="entrada-salida-form">
+        <label for="placa">Placa del vehículo:</label>
+        <input type="text" id="placa" name="placa" required>
+        <label for="accion">Acción:</label>
+        <select id="accion" name="accion" required>
+            <option value="entrada">Entrada</option>
+            <option value="salida">Salida</option>
+        </select>
+        <button type="submit">Registrar</button>
+    </form>
+    <div id="registro-mensaje"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
